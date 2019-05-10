@@ -12,3 +12,17 @@ D:\dev\F4S\Projet\Projet\obj\Debug\netcoreapp2.1\Projet.AssemblyInfo.cs
 D:\dev\F4S\Projet\Projet\obj\Debug\netcoreapp2.1\Projet.RazorTargetAssemblyInfo.cache
 D:\dev\F4S\Projet\Projet\obj\Debug\netcoreapp2.1\Projet.dll
 D:\dev\F4S\Projet\Projet\obj\Debug\netcoreapp2.1\Projet.pdb
+D:\dev\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.deps.json
+D:\dev\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.runtimeconfig.json
+D:\dev\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.runtimeconfig.dev.json
+D:\dev\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.dll
+D:\dev\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.pdb
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.csprojAssemblyReference.cache
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.csproj.CoreCompileInputs.cache
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorAssemblyInfo.cache
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorAssemblyInfo.cs
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.AssemblyInfoInputs.cache
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.AssemblyInfo.cs
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorTargetAssemblyInfo.cache
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.dll
+D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.pdb

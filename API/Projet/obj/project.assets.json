@@ -11802,11 +11802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\F4S\\Projet\\Projet\\Projet.csproj",
+      "projectUniqueName": "D:\\dev\\F4S\\API\\Projet\\Projet.csproj",
       "projectName": "Projet",
-      "projectPath": "D:\\dev\\F4S\\Projet\\Projet\\Projet.csproj",
+      "projectPath": "D:\\dev\\F4S\\API\\Projet\\Projet.csproj",
       "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\F4S\\Projet\\Projet\\obj\\",
+      "outputPath": "D:\\dev\\F4S\\API\\Projet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

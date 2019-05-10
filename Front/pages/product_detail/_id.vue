@@ -6,7 +6,7 @@
         </figure>
         <div class="card-content column is-two-thirds">
           <div class="card-content__title">
-            <h2 class="title is-4">{{ product.title }}
+            <h2 class="title is-4">{{ product.name }}
               <button class="button is-small" :title="removeFromFavouriteLabel" v-show="product.isFavourite" @click="removeFromFavourite(product.id)">
                 <span class="icon is-small">
                   <i class="fa fa-heart"></i>
@@ -21,8 +21,7 @@
           </div>
           <div class="card-content__text">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud
+            {{product.description}}
             </p>
           </div>
           <div class="card-content__ratings" v-if="product.rating === 1">
@@ -93,8 +92,11 @@ export default {
   },
 
   mounted () {
-    this.product = this.$store.getters.getProductById(this.$route.params.id);
-    this.selected = this.product.quantity;
+    this.$axios
+      .$get('https://localhost:44391/api/produit/'+ this.$route.params.id)
+      .then(response => (this.product = response))
+
+    console.log(this.product)
 
     for (let i = 1; i <= 20; i++) {
       this.quantityArray.push(i);
