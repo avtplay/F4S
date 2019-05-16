@@ -26,3 +26,17 @@ D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.AssemblyInfo.cs
 D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorTargetAssemblyInfo.cache
 D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.dll
 D:\dev\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.pdb
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.deps.json
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.runtimeconfig.json
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.runtimeconfig.dev.json
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.dll
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\bin\Debug\netcoreapp2.1\Projet.pdb
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.csprojAssemblyReference.cache
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.csproj.CoreCompileInputs.cache
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorAssemblyInfo.cache
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorAssemblyInfo.cs
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.AssemblyInfoInputs.cache
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.AssemblyInfo.cs
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.RazorTargetAssemblyInfo.cache
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.dll
+C:\Users\ABIESBROUCK\Documents\Efficom\Projet_V2\F4S\API\Projet\obj\Debug\netcoreapp2.1\Projet.pdb

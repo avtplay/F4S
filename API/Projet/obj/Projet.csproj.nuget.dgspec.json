@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\F4S\\API\\Projet\\Projet.csproj": {}
+    "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj": {}
   },
   "projects": {
-    "D:\\dev\\F4S\\API\\Projet\\Projet.csproj": {
+    "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\F4S\\API\\Projet\\Projet.csproj",
+        "projectUniqueName": "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj",
         "projectName": "Projet",
-        "projectPath": "D:\\dev\\F4S\\API\\Projet\\Projet.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\F4S\\API\\Projet\\obj\\",
+        "projectPath": "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj",
+        "packagesPath": "C:\\Users\\ABIESBROUCK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "C:\\Users\\ABIESBROUCK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -58,6 +56,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.1.2, )"
             }
           },
           "imports": [

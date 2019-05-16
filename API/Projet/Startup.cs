@@ -29,8 +29,13 @@ namespace Projet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MyDbContext>(opt =>
-                opt.UseInMemoryDatabase("TodoList"));
+            services.AddEntityFrameworkNpgsql()
+               .AddDbContext<MyDbContext>()
+               .BuildServiceProvider();
+            /*services.AddDbContext<MyDbContext>(opt =>
+                opt.UseInMemoryDatabase("TodoList"));*/
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
 
