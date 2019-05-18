@@ -1,10 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
 
 namespace Projet.Models
 {
-    public class MyDbContext : DbContext
+    public class MyDbContext : IdentityDbContext<Utilisateur>   
     {
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
               => optionsBuilder.UseNpgsql("Host=5.135.156.172;Database=carottesrapee;Username=patatedouce;Password=p~3ETR!");
 

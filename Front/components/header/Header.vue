@@ -16,7 +16,6 @@
       <div class="navbar-menu is-active">
         <div class="navbar-start">
           <div class="navbar-item field">
-            <VmSearch></VmSearch>
           </div>
         </div>
         
@@ -59,7 +58,6 @@
 
 <script>
   import VmMenu from '../menu/Menu';
-  import VmSearch from '../search/Search';
 
   export default {
     name: 'VmHeader',
@@ -76,7 +74,6 @@
     },
 
     components: {
-      VmSearch,
       VmMenu
     },
 

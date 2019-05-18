@@ -1,4 +1,50 @@
 export const state = () => ({
+  news: [
+    {
+      id : 1,
+      image : 'https://bulma.io/images/placeholders/1280x960.png',
+      auteurImage: 'https://bulma.io/images/placeholders/96x96.png', 
+      auteur: 'A Biesbrouck',
+      text: 'Lorem Eiusmod velit ipsum amet dolore id laborum dolore sint voluptate reprehenderit proidentCupidatat voluptate non velit laborum ad laborum irure qui excepteur magna. Est labore Lorem reprehenderit proident elit laborum ipsum dolor irure excepteur nostrud sit minim. Quis commodo non commodo esse ipsum mollit reprehenderit sit fugiat amet sit. Culpa mollit ullamco exercitation qui in cillum aliqua. Do est magna duis veniam proident mollit.Nulla ad tempor cillum Lorem eiusmod id. Consequat excepteur reprehenderit cillum laborum reprehenderit nisi sit ex laboris. Labore occaecat sint adipisicing ullamco.',
+      link: "www.facebook.com",
+      linkLabel: "facebook",
+      date: '28 juin 2017'
+
+    },
+    {
+      id : 2,
+      image : 'https://bulma.io/images/placeholders/1280x960.png',
+      auteurImage: 'https://bulma.io/images/placeholders/96x96.png', 
+      auteur: 'A Biesbrouck',
+      text: 'Lorem Eiusmod velit ipsum amet dolore id laborum dolore sint voluptate reprehenderit proidentCupidatat voluptate non velit laborum ad laborum irure qui excepteur magna. Est labore Lorem reprehenderit proident elit laborum ipsum dolor irure excepteur nostrud sit minim. Quis commodo non commodo esse ipsum mollit reprehenderit sit fugiat amet sit. Culpa mollit ullamco exercitation qui in cillum aliqua. Do est magna duis veniam proident mollit.Nulla ad tempor cillum Lorem eiusmod id. Consequat excepteur reprehenderit cillum laborum reprehenderit nisi sit ex laboris. Labore occaecat sint adipisicing ullamco.',
+      link: "www.facebook.com",
+      linkLabel: "facebook",
+      date: '28 juin 2017'
+
+    },
+    {
+      id : 3,
+      image : 'https://bulma.io/images/placeholders/1280x960.png',
+      auteurImage: 'https://bulma.io/images/placeholders/96x96.png', 
+      auteur: 'A Biesbrouck',
+      text: 'Lorem Eiusmod velit ipsum amet proident elit laborum ipsum dolor irure excepteur nostrud sit minim. Quis commodo non commodo esse ipsum mollit reprehenderit sit fugiat amet sit. Culpa mollit ullamco exercitation qui in cillum aliqua. Do est magna duis veniam proident mollit.Nulla ad tempor cillum Lorem eiusmod id. Consequat excepteur reprehenderit cillum laborum reprehenderit nisi sit ex laboris. Labore occaecat sint adipisicing ullamco.',
+      link: "www.facebook.com",
+      linkLabel: "facebook",
+      date: '28 juin 2017'
+
+    },
+    {
+      id : 4,
+      image : 'https://bulma.io/images/placeholders/1280x960.png',
+      auteurImage: 'https://bulma.io/images/placeholders/96x96.png', 
+      auteur: 'A Biesbrouck',
+      text: 'Lorem Eiusmod velit ipsum amet proident elit laborum ipsum dolor irure excepteur nostrud sit minim. Quis commodo non commodo esse ipsum mollit reprehenderit sit fugiat amet sit. Culpa mollit ullamco exercitation qui in cillum aliqua. Do est magna duis veniam proident mollit.Nulla ad tempor cillum Lorem eiusmod id. Consequat excepteur reprehenderit cillum laborum reprehenderit nisi sit ex laboris. Labore occaecat sint adipisicing ullamco.',
+      link: "www.facebook.com",
+      linkLabel: "facebook",
+      date: '28 juin 2017'
+
+    }
+  ],
   products: [
     {
       id: 1,
