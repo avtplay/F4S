@@ -62,7 +62,7 @@ namespace TodoApi.Controllers
             }
         }
 
-        // GET: api/Todo
+        // GET: api/produit
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produit>>> GetTodoItems()
         {

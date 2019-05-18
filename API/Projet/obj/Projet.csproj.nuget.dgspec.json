@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj": {}
+    "D:\\dev\\F4S\\API\\Projet\\Projet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj": {
+    "D:\\dev\\F4S\\API\\Projet\\Projet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj",
+        "projectUniqueName": "D:\\dev\\F4S\\API\\Projet\\Projet.csproj",
         "projectName": "Projet",
-        "projectPath": "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\Projet.csproj",
-        "packagesPath": "C:\\Users\\ABIESBROUCK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABIESBROUCK\\Documents\\Efficom\\Projet_V2\\F4S\\API\\Projet\\obj\\",
+        "projectPath": "D:\\dev\\F4S\\API\\Projet\\Projet.csproj",
+        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\F4S\\API\\Projet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ABIESBROUCK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -41,14 +43,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.AspNet.Identity.EntityFramework": {
-              "target": "Package",
-              "version": "[2.2.2, )"
-            },
-            "Microsoft.AspNet.Identity.Owin": {
-              "target": "Package",
-              "version": "[2.2.2, )"
-            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -64,10 +58,6 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
-            },
-            "Microsoft.Owin.Host.SystemWeb": {
-              "target": "Package",
-              "version": "[4.0.1, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

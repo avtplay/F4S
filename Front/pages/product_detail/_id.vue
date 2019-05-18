@@ -72,7 +72,13 @@
 </template>
 
 <script>
+
+
+import repositoryFactory from '../../api/repositoryFactory';
+const produitRepository = repositoryFactory.get('produits')
+
 export default {
+
   name: 'product_detail-id',
 
   validate ({ params }) {
@@ -85,19 +91,18 @@ export default {
       removeFromCartLabel: 'Remove from cart',
       addToFavouriteLabel: 'Add to favourite',
       removeFromFavouriteLabel: 'Remove from favourite',
-      product: {},
+      product: [],
       selected: 1,
       quantityArray: []
     };
   },
 
-  mounted () {
-    this.$axios
-      .$get('https://localhost:44391/api/produit/'+ this.$route.params.id)
-      .then(response => (this.product = response))
-
+  created(){
+    this.fetch()
     console.log(this.product)
+  },
 
+  mounted () {
     for (let i = 1; i <= 20; i++) {
       this.quantityArray.push(i);
     }
@@ -110,6 +115,10 @@ export default {
   },
 
   methods: {
+    async fetch (){
+      const { data } =  await produitRepository.get(this.$route.params.id)
+      this.product = data;
+    },
     addToCart (id) {
       let data = {
         id: id,

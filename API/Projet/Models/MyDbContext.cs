@@ -1,11 +1,10 @@
 ﻿
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
 
 namespace Projet.Models
 {
-    public class MyDbContext : IdentityDbContext<Utilisateur>   
+    public class MyDbContext : DbContext 
     {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
