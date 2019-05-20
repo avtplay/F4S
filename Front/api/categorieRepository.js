@@ -1,6 +1,6 @@
 import repository from './repository';
 
-const resource = "/vendeur";
+const resource = "/categorie";
 export default{
     async get (){
         return repository.get(`${resource}`)

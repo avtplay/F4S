@@ -40,11 +40,12 @@ namespace Projet.Models
             });
         }
 
-        public DbSet<TodoItem> TodoItems { get; set; }
         public DbSet<Adresse> Adresse { get; set; }
         public DbSet<Vendeur> Vendeur { get; set; }
         public DbSet<Categorie> Categorie { get; set; }
-
         public DbSet<Produit> Produit { get; set; }
+
+        public DbSet<Notation> notation { get; set; }
+        public DbSet<Utilisateur> Utilisateur { get; set; }
     }
 }
